@@ -1,0 +1,102 @@
+-- Citizen.CreateThread(function()
+
+--     AddCircleZone("davis_spawn_vehicle", vector3(379.81, -1620.1, 29.29), 0.9, {
+--         name="davis_spawn_vehicle",
+--         debugPoly = false,
+--         useZ = true
+--     },
+--     {
+--         options = {
+--             {
+--                 event = "ARP-police:eyetarget",
+--                 icon = "fas fa-car",
+--                 label = "Davis Garage",
+--                 parms = { location =  "davis" }
+--             },
+--         },
+--         job = {"police"},
+--         distance = 1.5
+--     })
+
+--     AddBoxZone("davis_duty_police", vector3(373.05, -828.97, 29.29), 5.8, 1.0,{
+--         name="duty_police",
+--         heading=319,
+--         --debugPoly=true
+--     }, 
+--     {
+--         options = {
+--             {
+--                 event = "Police:duty",
+--                 icon = "far fa-clipboard",
+--                 label = "Sign On/Off Duty"
+--             },
+--         },
+--         job = {"all"},
+--         distance = 1.5
+--     })
+
+--     AddCircleZone("davis_pd_1", vector3(360.77, -1603.38, 29.45), 0.57, {
+--         useZ=true,
+--     },
+--     {
+--         options = {
+--             {
+--                 event = "evidence:general",
+--                 icon = "fas fa-trash",
+--                 label = "Trash Locker (Clears On Tsunami)"
+--             },
+--         },
+--         job = {"police"},
+--         distance = 1.5
+--     })
+
+--     AddCircleZone("davis_pd_2", vector3(371.89, -1590.35, 29.45), 0.36, {
+--         useZ=true,
+--     },
+--     {
+--         options = {
+--             {
+--                 event = "evidence:general",
+--                 icon = "fas fa-trash",
+--                 label = "Trash Locker (Clears On Tsunami)"
+--             },
+--         },
+--         job = {"police"},
+--         distance = 1.5
+--     })
+
+--     AddCircleZone("davis_serial", vector3(369.17, -1589.85, 25.7), 0.33,{
+--         name = "davis_serial",
+--         debugPoly = false,
+--         useZ = true
+--     },
+--     {
+--         options = {
+--             {
+--                 event = "serial:search",
+--                 icon = "fas fa-hand-holding",
+--                 label = "Search Weapon Serial"
+--             }
+--         },
+--         job = {"police"},
+--         distance = 1.5
+--     })
+
+--     AddBoxZone("davis_evidence_open", vector3(381.83, -1609.6, 30.2), 4.0, 1, {
+--         name="davis_evidence",
+--         heading=320,
+--         --debugPoly=true
+--       },
+--     {
+--         options = {
+--             {
+--                 event = "Evidence:Open",
+--                 icon = "fas fa-suitcase",
+--                 label = "Open Evidence"
+--             },
+--         },
+--         job = {"police"},
+--         distance = 2
+--     })
+
+-- end)
